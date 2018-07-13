@@ -16,12 +16,6 @@ class Song
     @@count
   end
   
-  def count_duplicates(array)
-    array.each do |element|
-      array[element] += 1
-    end
-  end
-  
   def self.genres
     @@genres = @@genres.uniq
   end
